@@ -1,0 +1,8 @@
+# scriptlet to run after bootstrapping, to make sure the user home/environment is in a sane state
+
+# update/generate user dirs
+xdg-user-dirs-update
+
+# convert old gsettings bits
+/usr/bin/gsettings-data-convert
+
