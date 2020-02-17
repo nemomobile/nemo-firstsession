@@ -2,7 +2,3 @@
 
 # update/generate user dirs
 xdg-user-dirs-update
-
-# convert old gsettings bits
-/usr/bin/gsettings-data-convert
-
