@@ -8,6 +8,7 @@ License:	GPLv2
 URL:		https://github.com/nemomobile/nemo-firstsession
 Source0:	%{name}-%{version}.tar.bz2
 Requires:	oneshot
+Requires:	xdg-user-dirs
 BuildRequires:	oneshot
 BuildArch:	noarch
 
